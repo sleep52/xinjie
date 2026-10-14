@@ -1,0 +1,22 @@
+const log = [], sleep = ms => new Promise(r => setTimeout(r, ms));
+const q = s => document.querySelector(s);
+const qa = s => Array.from(document.querySelectorAll(s));
+const click = el => el && el.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+const set = (el, v) => { el.value = v; el.dispatchEvent(new Event('input', { bubbles: true })); };
+const hash = u => { location.hash = u; return sleep(1400); };
+
+click(q('.btn.gd')); await sleep(400);
+const ins = qa('uni-input input');
+set(ins[0], '13800138000'); set(ins[1], '123456'); await sleep(200);
+click(q('.cb')); await sleep(200);
+click(q('.pan .btn.gd')); await sleep(1400);
+await hash('#/pages/shop/shop');
+click(qa('.grid .g')[2]); await sleep(1300);
+click(qa('.avp .btn.gd')[0]); await sleep(1500);
+await hash('#/pages/drama/drama');
+click(qa('.dm .ib')[1]); await sleep(300);
+set(q('.lin input'), 'http://127.0.0.1:5199/static/第3集.mp4'); await sleep(200);
+click(q('.lbtn')); await sleep(700);
+const st = JSON.parse(localStorage.getItem('xinjie.uni.v1'));
+log.push('写入完成: authed=' + st.authed + ' quiz=' + st.quiz + ' 钻=' + st.diamonds + ' 证书=' + st.certs.length + ' 剧单=' + st.lib.length + '(' + st.lib[0].t + ')');
+return log;

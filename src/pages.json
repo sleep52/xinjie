@@ -1,0 +1,30 @@
+{
+  "pages": [
+    { "path": "pages/splash/splash", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/login/login", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/quiz/quiz", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/home/home", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/drama/drama", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/player/player", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/live/live", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/messages/messages", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/chat/chat", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/groups/groups", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/social/social", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/publish/publish", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/shop/shop", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/avatar/avatar", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/cert/cert", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/profile/profile", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/wallet/wallet", "style": { "navigationStyle": "custom" } }
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "心界",
+    "navigationBarBackgroundColor": "#0A0A0B",
+    "backgroundColor": "#0A0A0B",
+    "backgroundColorTop": "#0A0A0B",
+    "backgroundColorBottom": "#0A0A0B"
+  }
+}

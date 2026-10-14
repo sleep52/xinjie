@@ -1,0 +1,10 @@
+node_modules/
+dist/
+_tools/prof/
+_tools/prof2/
+_验证截图/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.hbuilderx/

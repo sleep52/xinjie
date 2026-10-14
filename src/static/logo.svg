@@ -1,0 +1,24 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A9784B"/>
+      <stop offset=".55" stop-color="#B9905A"/>
+      <stop offset="1" stop-color="#E8CE9F"/>
+    </linearGradient>
+    <linearGradient id="rg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#3F7A68"/>
+      <stop offset=".5" stop-color="#C29A62"/>
+      <stop offset="1" stop-color="#6FA898"/>
+    </linearGradient>
+    <clipPath id="front"><rect x="0" y="62" width="120" height="60"/></clipPath>
+  </defs>
+  <g transform="rotate(-18 60 60)">
+    <ellipse cx="60" cy="60" rx="50" ry="18" fill="none" stroke="url(#rg)" stroke-width="7" opacity=".85"/>
+  </g>
+  <path d="M60 88C60 88 22 66 22 44c0-12 9-20 19-20 7 0 13 4 19 11 6-7 12-11 19-11 10 0 19 8 19 20 0 22-38 44-38 44z" fill="url(#hg)"/>
+  <g transform="rotate(-18 60 60)" clip-path="url(#front)">
+    <ellipse cx="60" cy="60" rx="50" ry="18" fill="none" stroke="url(#rg)" stroke-width="7"/>
+  </g>
+  <circle cx="104" cy="30" r="3.4" fill="#E8CE9F" opacity=".9"/>
+  <circle cx="16" cy="86" r="2.4" fill="#8FBFAF" opacity=".85"/>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "name": "心界",
+  "appid": "",
+  "description": "遇见有趣的灵魂 · 短剧 / 社交 / 直播 / AI头像 / 区块链",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "background": "#0A0A0B"
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": { "urlCheck": false, "es6": true, "minified": true },
+    "usingComponents": true,
+    "darkmode": false
+  },
+  "h5": {
+    "title": "心界 · 遇见有趣的灵魂",
+    "themeColor": "#E8CE9F",
+    "router": { "mode": "hash", "base": "./" },
+    "devServer": { "port": 5199 }
+  }
+}

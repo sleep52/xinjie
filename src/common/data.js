@@ -1,0 +1,161 @@
+/* 设计稿里的静态内容，集中放这里方便改 */
+export const HERO = { t: '爱在星光下', sub: '全网热播', img: '/static/p-a.jpg' };
+
+export const QUICK = [
+  { k: 'drama', n: '短剧推荐', ic: 'ic-play-c-g' },
+  { k: 'near', n: '附近的人', ic: 'ic-pin-g' },
+  { k: 'live', n: '直播', ic: 'ic-video-g' },
+  { k: 'topic', n: '热门话题', ic: 'ic-topic-g' }
+];
+
+export const DRAMAS = [
+  { id: 'd1', t: '重生之我在娱乐圈', sub: '影后重生 · 逆袭打脸', cat: ['逆袭'], tag: '独播', plays: 73000, img: '/static/p-b.jpg', eps: 24, vid: '/static/demo_a.mp4' },
+  { id: 'd2', t: '总裁的替身新娘', sub: '先婚后爱 · 虐恋情深', cat: ['恋爱'], tag: '热播', plays: 88000, img: '/static/p-c.jpg', eps: 18, vid: '/static/demo_b.mp4' },
+  { id: 'd3', t: '爱在星光下', sub: '顶流影帝 · 甜宠日常', cat: ['恋爱'], tag: 'VIP', plays: 128000, img: '/static/p-a.jpg', eps: 12, vid: '/static/demo_c.mp4' },
+  { id: 'd4', t: '月光不及你', sub: '校园 · 双向暗恋', cat: ['校园', '恋爱'], tag: '新剧', plays: 45000, img: '/static/p-e.jpg', eps: 16, vid: '/static/demo_a.mp4' },
+  { id: 'd5', t: '雨夜来电', sub: '悬疑 · 无限反转', cat: ['悬疑'], tag: '独播', plays: 32000, img: '/static/p-f.jpg', eps: 10, vid: '/static/demo_b.mp4' },
+  { id: 'd6', t: '她的小温柔', sub: '都市 · 治愈甜宠', cat: ['治愈', '恋爱'], tag: '热播', plays: 61000, img: '/static/p-d.jpg', eps: 20, vid: '/static/demo_c.mp4' }
+];
+
+export const CATS = ['全部', '恋爱', '悬疑', '逆袭', '古风', '校园', '治愈'];
+
+export const QUIZ = [
+  {
+    q: '你更喜欢哪种生活方式？',
+    o: [
+      { t: '热闹的社交生活', s: '喜欢和朋友在一起', img: '/static/p-a.jpg' },
+      { t: '安静的独处时光', s: '享受一个人的空间', img: '/static/p-d.jpg' },
+      { t: '追求新鲜与刺激', s: '喜欢尝试新事物', img: '/static/p-e.jpg' },
+      { t: '稳定的日常生活', s: '按部就班更安心', img: '/static/p-c.jpg' }
+    ]
+  },
+  {
+    q: '刷到一部很上头的短剧，你会？',
+    o: [
+      { t: '立刻分享给朋友', s: '好看的东西要一起看', img: '/static/p-b.jpg' },
+      { t: '一个人熬夜看完', s: '独处是最好的充电', img: '/static/p-f.jpg' },
+      { t: '去评论区和大家聊', s: '想看别人的反应', img: '/static/p-e.jpg' },
+      { t: '收藏起来慢慢看', s: '习惯有节奏地推进', img: '/static/p-c.jpg' }
+    ]
+  },
+  {
+    q: '周末的傍晚，你在哪里？',
+    o: [
+      { t: '热门商圈的排队人群里', s: '烟火气让人开心', img: '/static/p-a.jpg' },
+      { t: '房间角落戴着耳机', s: '一本书一首歌', img: '/static/p-d.jpg' },
+      { t: '去往没去过的地方', s: '路上全是新风景', img: '/static/p-e.jpg' },
+      { t: '常去的那家小店', s: '熟悉的味道最舒服', img: '/static/p-c.jpg' }
+    ]
+  },
+  {
+    q: '认识新朋友时，你通常？',
+    o: [
+      { t: '主动开口热场', s: '聊天是我的能量来源', img: '/static/p-b.jpg' },
+      { t: '先观察再靠近', s: '慢慢来比较快', img: '/static/p-f.jpg' },
+      { t: '聊共同爱好', s: '有话题就不冷场', img: '/static/p-e.jpg' },
+      { t: '等对方先说话', s: '随缘也是一种默契', img: '/static/p-d.jpg' }
+    ]
+  },
+  {
+    q: '你希望心界成为你的什么？',
+    o: [
+      { t: '一个热闹的小宇宙', s: '随时有人回应', img: '/static/p-a.jpg' },
+      { t: '一个安静的树洞', s: '写下只有自己能懂的话', img: '/static/p-d.jpg' },
+      { t: '一扇通往新世界的门', s: '遇见没见过的灵魂', img: '/static/p-e.jpg' },
+      { t: '一个熟悉的老地方', s: '每天回来坐一坐', img: '/static/p-c.jpg' }
+    ]
+  }
+];
+
+export const SOULS = [
+  { k: 'A', n: '发光体 · 社交家', d: '你是人群里的天然中心，走到哪里都能点亮气氛。适合你的灵魂，是愿意陪你一起热闹的人。', tag: '话题制造机' },
+  { k: 'B', n: '星夜思考者', d: '你享受独处，也拥有很深的内心世界。能读懂你沉默的人，往往最懂你。', tag: '深聊型选手' },
+  { k: 'C', n: '冒险家', d: '你对世界保持好奇，喜欢新鲜、拒绝重复。你的灵魂伴侣，得跟得上你的脚步。', tag: '探索欲满格' },
+  { k: 'D', n: '温柔锚点', d: '你稳定、可靠、有节奏感，是身边人的定心丸。慢一点的关系，反而走得更远。', tag: '长情型选手' }
+];
+
+export const AV_CATS = ['全部', '二次元', '古风', '赛博朋克', '写实'];
+export const AVATARS = [
+  { id: 'av1', n: '星河之境', p: 99, img: '/static/a1.jpg', cat: '二次元' },
+  { id: 'av2', n: '月见草', p: 99, img: '/static/a2.jpg', cat: '二次元' },
+  { id: 'av3', n: '霓虹信使', p: 199, img: '/static/a3.jpg', cat: '赛博朋克' },
+  { id: 'av4', n: '拾光少女', p: 199, img: '/static/a1.jpg', cat: '古风' },
+  { id: 'av5', n: '逆光少年', p: 299, img: '/static/a2.jpg', cat: '写实' },
+  { id: 'av6', n: '深海回响', p: 299, img: '/static/a3.jpg', cat: '二次元' }
+];
+export const LIMIT = { id: 'limit', n: '星河之境 · 限定系列', p: 2999, img: '/static/a1.jpg', total: 100, left: 100, secs: 154 };
+
+export const GROUPS = [
+  { n: '悬疑剧场圈', m: '12.8w', msg: '3.2w', img: '/static/p-f.jpg' },
+  { n: '二次元同好会', m: '8.6w', msg: '1.6w', img: '/static/a1.jpg' },
+  { n: '游戏开黑群', m: '6.3w', msg: '1.2w', img: '/static/a3.jpg' },
+  { n: '音乐爱好者', m: '5.9w', msg: '1.1w', img: '/static/a2.jpg' },
+  { n: '情感树洞', m: '4.2w', msg: '987', img: '/static/p-d.jpg' }
+];
+
+export const SEED_POSTS = [
+  {
+    id: 'p1', u: '清风徐来', av: '/static/a2.jpg', t: '2小时前',
+    x: '今天的夕阳好美呀～ 和大家分享一下🌇',
+    img: '/static/bg-splash.jpg', like: 12000, cmt: 236
+  },
+  {
+    id: 'p2', u: '小透明', av: '/static/a3.jpg', t: '3小时前',
+    x: '好喜欢这部剧，求推荐类似的！',
+    card: { t: '重生之我在娱乐圈', img: '/static/p-b.jpg', ep: '第23 / 10:30' },
+    like: 890, cmt: 42
+  },
+  {
+    id: 'p3', u: '深夜追剧人', av: '/static/a1.jpg', t: '5小时前',
+    x: '凌晨两点看完了《雨夜来电》最后三集，反转得我睡不着，有人懂吗。',
+    img: '/static/p-f.jpg', like: 3400, cmt: 128
+  }
+];
+
+export const SEED_CHAT = [
+  { me: false, x: '你好呀～很高兴认识你！你是做什么的呀？' },
+  { me: true, x: '我是一名大学生～你呢？' },
+  { me: false, x: '我也是大学生！我们可以聊聊喜欢的短剧～' },
+  { me: false, voice: 8 },
+  { me: true, gift: '送你一个小心心～' }
+];
+export const CHAT_REPLY = [
+  '我也超爱这部剧！你看到第几集啦？',
+  '哈哈哈我们口味好像，要不要一起追～',
+  '那你一定要看《雨夜来电》，反转超多的！',
+  '刚下播就来回你消息，够意思吧～',
+  '发你一个小心心，交个朋友！'
+];
+
+export const LIVE_USER = { n: '小鹿酱', av: '/static/p-d.jpg', heat: '12.8w' };
+export const LIVE_BULLETS = [
+  { c: '#8FBFAF', n: '小可爱', x: '好美啊！' },
+  { c: '#6FA898', n: '星辰大海', x: '求个连麦' },
+  { c: '#E8CE9F', n: '大橙子', x: '送出 鲜花 x1' },
+  { c: '#A9784B', n: '用户9527', x: '主播好棒！' },
+  { c: '#E8CE9F', n: '清风徐来', x: '加入了粉丝团' },
+  { c: '#6FA898', n: '夜航星', x: '这首是什么歌' },
+  { c: '#C98070', n: '月亮不及你', x: '刚刷到你的切片过来的' }
+];
+export const GIFTS = [
+  { n: '小心心', p: 1, e: '💗' },
+  { n: '鲜花', p: 5, e: '🌷' },
+  { n: '星河', p: 99, e: '💫' }
+];
+
+export const MSGS = [
+  { k: 'sys', n: '系统通知', s: '你的头像「星河之境」已完成链上确权', t: '12:34', un: 1, img: '', badge: 'ic-shield' },
+  { k: 'lu', n: '小鹿酱', s: '刚下播就来回你消息，够意思吧～', t: '11:02', un: 2, img: '/static/p-d.jpg' },
+  { k: 'g1', n: '悬疑剧场圈', s: '楼主：雨夜来电第8集细节盘点', t: '昨天', un: 12, img: '/static/p-f.jpg' },
+  { k: 'g2', n: '二次元同好会', s: '拾光少女：新头像已上架啦', t: '昨天', un: 3, img: '/static/a1.jpg' },
+  { k: 'like', n: '赞和收藏', s: '清风徐来 等 128 人赞了你的动态', t: '周二', un: 0, img: '', badge: 'ic-heart' }
+];
+
+export const RECHARGE = [
+  { rmb: 6, gem: 60 },
+  { rmb: 30, gem: 300 },
+  { rmb: 50, gem: 500 },
+  { rmb: 100, gem: 1000 },
+  { rmb: 200, gem: 2000 },
+  { rmb: 500, gem: 5000 }
+];
